@@ -80,7 +80,7 @@
           	</p>
             There are two potential methods how to implement a plugin for the checkrobin business API:
             <ol type="A">
-            	<li><b>Download <span style="color:red">[link to github]</span> and use this Webshopconnect Class library for PHP out of the box</b> <br/>(highly recommended)</li>
+            	<li><b>Download from <a href="https://github.com/davidtschische/Webshopconnect" target="_blank">Github Repository</a> and use this Webshopconnect Class library for PHP out of the box</b> <br/>(highly recommended)</li>
             	<li><b>Implement your own connection to the</b> <a href="http://api-docu.checkrobin.com" target="_blank">checkrobin business API</a> <br/>(for advanced programmers and non PHP applications)</li>
             </ol>
             <h4>Workflow</h4>
@@ -113,7 +113,7 @@
         <h2 class="text-center text-uppercase text-secondary mb-0">Examples</h2>        
         <hr class="star-dark mb-5">
         If you chose to use the Webshopconnect Library provided by checkrobin, you can build on a number of prepared coding examples for PHP.
-        All examples are available as documented source code under the path <code>/samples</code> of this download <span style="color:red">[link to github]</span>.<br/>
+        All examples are available as documented source code under the path <code>/samples</code> of this download from <a href="https://github.com/davidtschische/Webshopconnect" target="_blank">Github Repository</a>.<br/>
         <div id="system_requirements" style="">
         <b>System requirements:</b> 
         <ul style="list-style-type: none;">
