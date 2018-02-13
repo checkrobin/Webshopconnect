@@ -13,9 +13,9 @@
     },
     "autoload": {
         "psr-0": {
-            "Checkrobin"					: "vendor/checkrobin/Webshopconnect/classes/Checkrobin",
-            "Checkrobin\\Webshopconnect"	: "vendor/checkrobin/Webshopconnect/classes/Checkrobin/Webshopconnect",
-            "Checkrobin\\Basic"				: "vendor/checkrobin/Webshopconnect/classes/Checkrobin/Basic"
+            "Checkrobin"					: "./classes/Checkrobin",
+            "Checkrobin\\Webshopconnect"	: "./classes/Checkrobin/Webshopconnect",
+            "Checkrobin\\Basic"				: "./classes/Checkrobin/Basic"
         }
     }
 }
