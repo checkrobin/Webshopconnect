@@ -12,10 +12,8 @@
         "php": ">=5.3.0"
     },
     "autoload": {
-        "psr-0": {
-            "Checkrobin"					: "./classes/Checkrobin",
-            "Checkrobin\\Webshopconnect"	: "./classes/Checkrobin/Webshopconnect",
-            "Checkrobin\\Basic"				: "./classes/Checkrobin/Basic"
+        "psr-4": {
+            "Checkrobin\\"					: "classes/Checkrobin/"
         }
     }
 }
