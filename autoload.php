@@ -1,5 +1,5 @@
 <?php
-DEFINE('ENVIRONMENT', 'STAGE'); //set this to 'DEV' for debug messaging, or to 'STAGE'|'LIVE' for minimum output 
+require_once 'environment.php';
 
 //supported(PHP 5 >= 5.3.0, PHP 7)
 spl_autoload_extensions(".php");

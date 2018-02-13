@@ -421,3 +421,7 @@ span.caption_example{
 input.error{
 	border: 1px solid red;
 }
+.external_file{
+	background: #666;
+	color:white;
+}

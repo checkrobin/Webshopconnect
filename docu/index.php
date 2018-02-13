@@ -120,6 +120,7 @@
         	<li><a href="http://php.net/" target="_blank">PHP</a> 5.3, 5.4, 5.5, 5.6, 7.0 or 7.2</li>
         	<li><a href="https://curl.haxx.se/" target="_blank">cURL</a> installed on your server</li>
         </ul>
+        We provide a test script <code>check_requirements.php</code> that can be run to find out if the prerequisites are met by your infrastructure.
         </div>
         
         <div class="row">
@@ -170,10 +171,31 @@
         </div>
         
         <br/><br/>
-        <h4 class="text-center text-uppercase text-secondary mb-0">Configuration and Debugging</h4>
+        <h4>Configuration and Debugging</h4>
         During development you may want to enable more verbose error messaging and detailed cURL ouput. 
-        There is a line <code>DEFINE('ENVIRONMENT', 'STAGE')</code> on top of the file <code>/autoload.php</code> that can be set to <code>"DEV"</code> to reach this behaviour.<br/>
+        There is a line <code>DEFINE('ENVIRONMENT', 'STAGE')</code> on top of the file <code>/environment.php</code> that can be set to <code>"DEV"</code> to reach this behaviour.<br/>
         (The examples above have been rendered that way.)
+        
+        <br/><br/>
+        
+        <h4>Composer</h4>
+        
+        If you opt to use the tool Composer to set up your project and resolve dependencies, you may certainly do so.
+        Here is how your <code>composer.json</code> should look like:
+        <pre class="external_file">
+		            
+        {
+		    "repositories": [
+		        {
+		            "type": "vcs",
+		            "url": "https://github.com/checkrobin/Webshopconnect"
+		        }
+		    ],
+		    "require": {
+		        "checkrobin/Webshopconnect": "dev-master"
+		    }
+        }        
+        </pre>
         
       </div>
     </section>

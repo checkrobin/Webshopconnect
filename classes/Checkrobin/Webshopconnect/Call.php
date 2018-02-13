@@ -4,6 +4,8 @@ namespace Checkrobin\Webshopconnect;
 use Checkrobin\Basic\MyCurl;
 use Checkrobin\Basic\Configloader;
 
+require_once __DIR__.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'environment.php';
+
 /**
  * Base class for server communication.
  *
