@@ -15,7 +15,7 @@
         "psr-0": {
             "Checkrobin"				: "classes/Checkrobin/",
             "Checkrobin\\Webshopconnect"	: "classes/Checkrobin/Webshopconnect/",
-            "Checkrobin\\Basic"			: "classes/Checkrobin/Basic/",
+            "Checkrobin\\Basic"			: "classes/Checkrobin/Basic/"
         }
     }
 }
