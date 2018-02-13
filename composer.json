@@ -7,7 +7,6 @@
             "email": "david.tschische@checkrobin.com"
         }
     ],
-    "minimum-stability": "master",
     "require": {
         "php": ">=5.3.0"
     },
