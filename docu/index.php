@@ -230,23 +230,21 @@
               		A-9020 Klagenfurt
             </p>
           </div>
-          <div class="col-md-4 mb-5 mb-lg-0">
+          <div class="col-md-4 mb-5 mb-lg-0" style="font-size:12px">
             <h4 class="text-uppercase mb-4">Legal Notice</h4>
-            Firmensitz: Klagenfurt
-			Rechtsform: GmbH
-			Firmenbuchnummer: FN 388462v
-			Firmenbuchgericht: Handelsgericht Wien
-			Kammerzugehörigkeit: Wirtschaftskammer Österreich
-			Umsatzsteueridentifikationsnummer: ATU 67 58 42 69
-			Umsatzsteueridentifikationsnummer: DE 31 11 65 335
-			DVR Nummer: 4016697/001
+            Firmensitz: Klagenfurt<br/>
+			Firmenbuchnummer: FN 388462v<br/>
+			Firmenbuchgericht: Handelsgericht Wien<br/>
+			Kammerzugehörigkeit: Wirtschaftskammer Österreich<br/>
+			Umsatzsteueridentifikationsnummer: ATU 67 58 42 69<br/>
+			Umsatzsteueridentifikationsnummer: DE 31 11 65 335<br/>
+			DVR Nummer: 4016697/001<br/>
 			Geschäftsführer: Hannes Jagerhofer
           </div>
           <div class="col-md-4">
             <h4 class="text-uppercase mb-4">Contact</h4>
             <p class="lead mb-0">
-			Tel.: +43 (0)1 49 49 297 0 <br/>
-			Fax: +43 (0)1 49 49 297 20 <br/>
+			Tel.: +43 1 49 49 297 0 <br/>
 			E-Mail: <a href="mailto:info@checkrobin.com?subject=Webshopconnect - Info">info@checkrobin.com</a><br/>
 			Web: <a href="https://business.checkrobin.com" target="_blank">business.checkrobin.com</a>
 			</p>
