@@ -65,7 +65,7 @@ try{
 	$product1->height			= 4.5;
 	$product1->weight			= 1100;
 	$product1->net_value		= 600.0;
-	$product1->tax_value_value	= 714.0;
+	$product1->tax_value		= 714.0;
 	
 	$product2 = new ContractCourierProduct();
 	$product2->name 			= 'Charger';
@@ -74,7 +74,7 @@ try{
 	$product2->height			= null;
 	$product2->weight			= 300;
 	$product2->net_value		= 79.9;
-	$product2->tax_value_value	= 95.08;
+	$product2->tax_value		= 95.08;
 	
 	$requestObj->courier_contract_products[] = $product1;
 	$requestObj->courier_contract_products[] = $product2;
