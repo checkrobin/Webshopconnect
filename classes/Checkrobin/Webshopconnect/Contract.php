@@ -122,7 +122,7 @@ class Contract extends Call
 				
 			if($httpcode != 201){
 					
-				throw new CrException("Unexpected status. Server responded with http code $httpcode.");
+				throw new CrException("Unexpected status. Server responded with http code $httpcode.", $httpcode);
 					
 			}else{
 		
@@ -144,7 +144,7 @@ class Contract extends Call
 						
 				}else{
 						
-					throw new CrException("Failed to decode JSON response: ".$this->getJSONLastError());
+					throw new CrException("Failed to decode JSON response: ".$this->getJSONLastError(), $httpcode);
 				}
 			}
 				
@@ -217,7 +217,7 @@ class Contract extends Call
 		
 		if($httpcode != 200){
 				
-			throw new CrException("Unexpected status. Server responded with http code $httpcode.");
+			throw new CrException("Unexpected status. Server responded with http code $httpcode.", $httpcode);
 				
 		}else{
 		
@@ -228,7 +228,7 @@ class Contract extends Call
 		
 			}else{
 		
-				throw new CrException("Failed to decode JSON response: ".$this->getJSONLastError());
+				throw new CrException("Failed to decode JSON response: ".$this->getJSONLastError(), $httpcode);
 			}
 		}
 		

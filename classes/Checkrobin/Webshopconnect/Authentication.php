@@ -83,7 +83,7 @@ class Authentication extends Call{
 			
 			if($httpcode != 200){
 					
-				throw new CrException("Unexpected status. Server responded with http code $httpcode.");
+				throw new CrException("Unexpected status. Server responded with http code $httpcode.", $httpcode);
 			
 			}else{
 				
@@ -102,7 +102,7 @@ class Authentication extends Call{
 						
 					}
 					if(!$tokenUpdated){
-						throw new CrException("Failed to update token. Empty or corrupted data.");
+						throw new CrException("Failed to update token. Empty or corrupted data.", $httpcode);
 					}
 					
 					//handle remaining fields of user profile
@@ -127,7 +127,7 @@ class Authentication extends Call{
 					
 				}else{
 					
-					throw new CrException("Failed to decode JSON response: ".$this->getJSONLastError());					
+					throw new CrException("Failed to decode JSON response: ".$this->getJSONLastError(), $httpcode);					
 				}
 			}
 			
