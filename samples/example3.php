@@ -58,6 +58,7 @@ try{
 }catch(CrException $e){
 
 	echo 'Exception: error in communication with checkrobin server: ' .$e->getMessage()."<br/>\n";
+	echo 'Code: '.$e->getCode()."<br/>\n";
 	echo 'Trace: '.$e->getTraceAsString();
 		
 }catch(Exception $e){
