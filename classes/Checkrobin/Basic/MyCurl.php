@@ -17,7 +17,7 @@ class MyCurl
 	/**
 	 * Call an endpoint to transmit a payload (e.g. JSON or XML) matching different server specific prerequisites.
 	 * 
-	 * @param URL $endpoint					The resource to be called.
+	 * @param String $endpoint				URL of the resource to be called.
 	 * @param String $payload				The data to be transmitted.
 	 * @param Array $header					List of headers to be encompassed in the request.
 	 * @param Bool $post					Use POST method for the call. (optional)
@@ -157,7 +157,7 @@ class MyCurl
 	 *
 	 * Usage example: sendCurlRequestAsync('http://example.com/background_process_1.php');
 	 *
-	 * @param URL $background_process		The url that you want to run in background.
+	 * @param String $background_process	The url that you want to run in background.
 	 * @param Bool $debug					Values: 2 == show verbose debug info, 0 or 1 = ignore.		(optional)
 	 * @param Bool $skipDNS					True = will route to localhost via CURLOPT_RESOLVE instead DNS based address resolution. (optional)
 	 * @return boolean

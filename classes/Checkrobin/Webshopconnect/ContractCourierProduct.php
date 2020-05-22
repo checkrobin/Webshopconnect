@@ -18,6 +18,7 @@ class ContractCourierProduct
 	public $weight 		= null;
 	public $net_value	= null;
 	public $tax_value	= null;
+	public $code        = null;
 	
 }
 ?>

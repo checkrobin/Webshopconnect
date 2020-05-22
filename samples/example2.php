@@ -49,7 +49,7 @@ try{
 	$requestObj->receiver['country']		= 'DE';
 	
 	$requestObj->order['id'] 		= '123'; 					//Unique order id assigned by the shop sw (typically database PK)
-	$requestObj->order['reference'] = 'Bestellung-18_'.time();	//Unique alphanumerical reference (typically the name presented to the end user to identify the order)
+	$requestObj->order['reference'] = 'Bestellung-20_'.time();	//Unique alphanumerical reference (typically the name presented to the end user to identify the order)
 	$requestObj->order['net_value'] = 679.90;  					//Sum of value of all products in this order. Currency EUR, before taxes.
 	$requestObj->order['tax_value'] = 809.08; 					//Sum of value of all products in this order. Currency EUR, taxes included.
 	
@@ -66,6 +66,7 @@ try{
 	$product1->weight			= 1100;
 	$product1->net_value		= 600.0;
 	$product1->tax_value		= 714.0;
+	$product1->code		        = 'EAN-Dummy-001';
 	
 	$product2 = new ContractCourierProduct();
 	$product2->name 			= 'Charger';
@@ -75,6 +76,7 @@ try{
 	$product2->weight			= 300;
 	$product2->net_value		= 79.9;
 	$product2->tax_value		= 95.08;
+	$product1->code		        = 'EAN-Dummy-002';
 	
 	$requestObj->courier_contract_products[] = $product1;
 	$requestObj->courier_contract_products[] = $product2;
@@ -104,7 +106,6 @@ try{
 }catch(CrException $e){
 
 	echo 'Exception: error in communication with checkrobin server: ' .$e->getMessage()."<br/>\n";
-	echo 'Code: '.$e->getCode()."<br/>\n";
 	echo 'Trace: '.$e->getTraceAsString();
 		
 }catch(Exception $e){

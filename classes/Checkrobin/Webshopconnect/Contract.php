@@ -4,6 +4,7 @@ namespace Checkrobin\Webshopconnect;
 use Checkrobin\Basic\MyCurl;
 use Checkrobin\Basic\Configloader;
 use Checkrobin\CrException;
+use InvalidArgumentException;
 
 /**
  * Class for handling parcels and included products.
@@ -24,7 +25,7 @@ class Contract extends Call
 		parent::__construct($shopFrameworkName, $shopFrameWorkVersion, $shopModuleVersion);
 		
 		if( empty($token) ){
-			throw new IllegalArgumentException("Param 'token' must not be empty. Please call \Webshopconnect\Authentication to obtain auth token!");
+		    throw new InvalidArgumentException("Param 'token' must not be empty. Please call \Webshopconnect\Authentication to obtain auth token!");
 		}else{
 			$this->token = $token;		
 		}
