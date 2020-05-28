@@ -58,7 +58,7 @@
         <img class="img-fluid mb-5 d-block mx-auto" src="img/cr_logo-big.png" alt="">
         <h1 class="text-uppercase mb-0">Webshopconnect Library</h1>
         <hr class="star-light">
-        <h2 class="font-weight-light mb-0">for PHP (5.3+ up to 7.2)</h2>
+        <h2 class="font-weight-light mb-0">for PHP (5.3+ up to 7.3)</h2>
       </div>
     </header>
     
