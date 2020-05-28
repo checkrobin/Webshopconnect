@@ -1,19 +1,18 @@
 {
-	"name": "checkrobin/Webshopconnect",
-	"version": "1.0",
-	"description": "checkrobin Business Webshopconnect",
-    "authors": [
-        {
-            "name": "David Tschische",
-            "email": "david.tschische@checkrobin.com"
-        }
-    ],
-    "require": {
-        "php": ">=5.3.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Checkrobin\\"					: "classes/Checkrobin/"
-        }
-    }
+	"name" : "checkrobin/webshopconnect",
+	"version" : "1.0",
+	"description" : "checkrobin Business Webshopconnect",
+	"authors" : [{
+			"name" : "David Tschische",
+			"email" : "david.tschische@checkrobin.com"
+		}
+	],
+	"require" : {
+		"php" : ">=5.3.0"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Checkrobin\\" : "classes/Checkrobin/"
+		}
+	}
 }

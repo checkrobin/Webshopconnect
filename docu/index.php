@@ -192,7 +192,7 @@
 		        }
 		    ],
 		    "require": {
-		        "checkrobin/Webshopconnect": "dev-master"
+		        "checkrobin/webshopconnect": "dev-master"
 		    }
         }        
         </pre>
